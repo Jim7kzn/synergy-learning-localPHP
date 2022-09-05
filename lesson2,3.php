@@ -1,4 +1,6 @@
 <?php
+// д/з
+
 	$jobNum = 0;
 	$lf = "<br>";
 	$separator = "{$lf}<hr>";
@@ -33,6 +35,3 @@
 	$howSeconds = $secondsPerMinute * $minutesPerHour;
 
 	echo "В часе {$howSeconds} секунд.{$lf}";
-
-
-
