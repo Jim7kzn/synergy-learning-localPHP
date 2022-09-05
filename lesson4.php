@@ -8,8 +8,7 @@
 	$suffix = "</i></b>{$lf}";
 
 //2
-	$jobNum++;
-	echo "{$separator}{$prefix}Задание&nbsp;{$jobNum}.{$suffix}";
+	echo "{$separator}{$prefix}Задание&nbsp;" . (++$jobNum) . ".{$suffix}";
 
 	$currentVariable = 0;
 	echo "Начальное значение \$currentVariable = {$currentVariable}{$lf}";
@@ -27,8 +26,7 @@
 	echo "После операции '% 3' значение \$currentVariable = {$currentVariable}{$lf}";
 
 //3
-	$jobNum++;
-	echo "{$separator}{$prefix}Задание&nbsp;{$jobNum}.{$suffix}";
+	echo "{$separator}{$prefix}Задание&nbsp;" . (++$jobNum) . ".{$suffix}";
 
 	$val1 = 50;
 	$val2 = 70;
