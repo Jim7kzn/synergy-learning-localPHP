@@ -1,5 +1,5 @@
 <?php
-	require_once 'config.php';    // д/з 7
+	require_once 'config.php';    // д/з 8
 	$jobNum = 3;
 // массив средней температуры по Казани за август 2022
 	$arrTemperature = [
