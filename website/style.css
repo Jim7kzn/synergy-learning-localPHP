@@ -1,0 +1,57 @@
+html {
+	width: 80%;
+	margin: 0 auto;
+}
+
+body {
+	font-family: Arial, HelveticaNeueCyr, sans-serif;
+	font-size: 14px;
+	color: black;
+	line-height: 1.5;
+}
+
+p {
+	text-align: justify;
+}
+
+.greeting {
+	font-size: 36px;
+	color: #16171c;
+	line-height: 1.2;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.secondLevel {
+	font-size: 30px;
+	line-height: 1.2;
+	text-decoration: underline;
+}
+
+.list {
+	list-style-type: square;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.table {
+	width: 700px;
+	margin: 0 auto;
+}
+
+table td, table th {
+	border: 1px solid black;
+	padding: 5px 10px;
+}
+
+td:nth-child(1), td:nth-child(4), td:nth-child(5) {
+	text-align: center;
+}
+
+tfoot > tr > td {
+	text-align: right !important;
+}
+
+thead, tfoot {
+	background-color: lavender;
+}
