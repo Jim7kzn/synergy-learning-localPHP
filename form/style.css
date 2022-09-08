@@ -1,0 +1,27 @@
+form {
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+	margin: 50px auto;
+}
+
+form > div {
+	width: 100%;
+}
+
+label {
+	width: 400px;
+	padding: 5px;
+	text-align: left;
+	margin-top: 10px;
+}
+
+input {
+	width: 250px;
+	padding: 5px;
+	float: right;
+}
+
+input:not(:last-child) {
+	margin-top: -6px;
+}
